@@ -28,13 +28,9 @@
           SIM
         </button>
       </div>
-
-      <img
-        class="pulsating-image"
-        style="width: 100px; padding-top: 200px"
-        src="images.png"
-        alt=""
-      />
+    </div>
+    <div class="divimg">
+      <img class="pulsating-image" src="images.png" alt="" />
     </div>
   </body>
   <style>
@@ -60,9 +56,14 @@
       border-radius: 5px;
     }
 
+    .divimg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 400px;
+    }
     .pulsating-image {
       width: 100px;
-      padding-top: 250px;
       animation: pulse 1.5s infinite;
     }
 
